@@ -1,0 +1,8 @@
+html {
+	background-image:url("/Users/caseypoon/week-4-game/assets/images/background_img.jpg");
+	background-repeat:repeat;
+}
+img {
+	display:inline-block;
+	padding:5px;
+}
