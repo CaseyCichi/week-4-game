@@ -1,8 +1,38 @@
 html {
 	background-image:url("/Users/caseypoon/week-4-game/assets/images/background_img.jpg");
-	background-repeat:repeat;
+	background-size:100%;
+
 }
 img {
 	display:inline-block;
 	padding:5px;
+	width:100px;
+	height:100px;
+	background-color:white;
 }
+
+#instructions {
+	color:white;
+}
+
+#score {
+	color:white;
+	background-color:black;
+	width:100px;
+	padding:2px;
+}
+
+#guessingNumber {
+	color:white;
+}
+
+#totalScore {
+	color:white;
+}
+
+#header {
+	color:white;
+	background-color:black;
+	padding:5px;
+}
+
