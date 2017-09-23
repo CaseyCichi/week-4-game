@@ -54,23 +54,23 @@ function newGame() {
 		   
 		    $('#yourScore').text(counter);
 
-		 if (counter == numberToGuess){
-		$("status").text("You did it!!");
-		wins ++;
-		$('#win').text(wins);
-		$('#crystals').empty();
-		newCrystals();
-		newGame();
-	}
-
-	else if (counter > numberToGuess){
-		$("status").text("Better Luck Next Time!");
-		losses ++;
-		$('#losses').text(losses);
-		$('#crystals').empty();
-		newCrystals();
-		newGame();
-	}
+		   if (counter == numberToGuess){
+		      $('#status').text('Nice Going!');
+		      wins ++;
+		      $('#win').text(wins);
+		      $('#crystals').empty();
+		      newCrystals();
+		      newGame();
+		        
+		    } 
+			else if ( counter > numberToGuess){
+		        $('#status').text('Better Luck Next time!')
+		        losses ++;
+		        $('#loss').text(losses);
+		        $('#crystals').empty();
+		        newCrystals();
+		        newGame();
+		    }
 
 
 
@@ -78,4 +78,5 @@ function newGame() {
 	}
 
 });
+
 
